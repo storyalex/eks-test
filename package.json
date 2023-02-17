@@ -10,11 +10,12 @@
     "test": "jest"
   },
   "devDependencies": {
-    "aws-cdk": "2.50.0",
-    "jest": "^27.5.1"
+    "aws-cdk": "2.65.0",
+    "jest": "^29.4.3"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.50.0",
-    "constructs": "^10.0.0"
+    "@aws-cdk/lambda-layer-kubectl-v24": "^2.0.101",
+    "aws-cdk-lib": "2.65.0",
+    "constructs": "^10.1.253"
   }
 }
